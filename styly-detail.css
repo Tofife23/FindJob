@@ -1,0 +1,50 @@
+.detail-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.detail-card img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.btn {
+    text-decoration: none;  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 10px 20px;  
+    border-radius: 5px;  
+    font-size: 16px;  
+    display: inline-block;  
+    transition: background-color 0.3s ease;  
+}
+
+.btn:hover {
+    background-color: #45a049;  
+    cursor: pointer;  
+}
+
+@media (max-width: 768px) {
+    
+    main {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    main {
+        padding: 0.1rem;
+        margin-top: 80px;
+    }
+
+    .nav-text {
+        display: none;
+    }
+}

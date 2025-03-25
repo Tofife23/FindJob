@@ -1,0 +1,106 @@
+.job-application {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.job-application h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.job-application form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.job-application label {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0 5px;
+}
+
+.job-application input,
+.job-application select,
+.job-application textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.job-application textarea {
+    resize: none;
+}
+
+.job-application button {
+    padding: 10px 15px;
+    background-color: #29FCFF;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.job-application button:hover {
+    background-color: #ff6b6b;
+}
+
+/* Responzivní design pro menší obrazovky */
+@media (max-width: 768px) {
+    .job-application {
+        width: 80%;
+    }
+
+    .job-application input,
+    .job-application select,
+    .job-application textarea {
+        width: 100%;
+    }
+}
+
+
+.confirmation {
+    display: none;
+    position: absolute;
+    top: 0;  
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: slideIn 0.5s ease-out;
+    z-index: 10;  
+}
+
+.icon {
+    font-size: 50px;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes slideIn {
+    from { opacity: 0; top: 0; }
+    to { opacity: 1; top: 20px; }
+}
+
+

@@ -1,0 +1,89 @@
+
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.contact-info h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+}
+
+.robot-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.robot-details h2 {
+    color: #333;
+}
+
+.robot-details ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.robot-details li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+.faq {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.faq h2 {
+    color: #333;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.faq-item p {
+    font-size: 16px;
+}
+
+.terms, .privacy-policy {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.terms h2, .privacy-policy h2 {
+    color: #333;
+}
+
+.terms p, .privacy-policy p {
+    font-size: 16px;
+}
+
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
